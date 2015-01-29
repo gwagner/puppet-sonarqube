@@ -1,13 +1,18 @@
 FORGE
-  remote: http://forge.puppetlabs.com
+  remote: https://forgeapi.puppetlabs.com
   specs:
-    maestrodev/maven (1.1.9)
-      maestrodev/wget (>= 1.0.0)
-    maestrodev/wget (1.3.1)
-    puppetlabs/stdlib (4.1.0)
+    puppetlabs-stdlib (4.5.1)
+
+GIT
+  remote: https://github.com/maestrodev/puppet-wget.git
+  ref: v1.5.7
+  sha: 562b605edf7cc744ddae6e9aac8c2289773ad934
+  specs:
+    maestrodev-wget (1.5.7)
 
 DEPENDENCIES
-  maestrodev/maven (>= 1.0.0)
-  maestrodev/wget (>= 0.0.1)
-  puppetlabs/stdlib (>= 2.3.0)
+  maestrodev-wget (>= 0)
+  puppetlabs-stdlib (>= 0)
+
+
 
